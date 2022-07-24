@@ -3,7 +3,7 @@
 What makes Tic Tac Toe Plus is being able to play other than a 3x3 board. You can
 play 4x4, 5x5, 6x6... (not tested beyond 6x6 yet though).
 
-'
+`
  O | X | X | O
 ---------------
  O | O | X | X
@@ -17,7 +17,7 @@ Want to play again? no
 Computer: 1
 Human: 0
 Ties: 1
-'
+`
 
 Command line only at present. 
 
@@ -31,8 +31,8 @@ if they think they can get away with it? ;)
 
 To play, just clone repository and run on CLI:
 
-'
+`
 python tttplus.py
-'
+`
 
 And have fun!
