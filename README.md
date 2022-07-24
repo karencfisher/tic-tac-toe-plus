@@ -29,7 +29,7 @@ at present a bug which may cause the computer to cheat at the last moment conver
 win to a tie.) But maybe friendly AI will let us win now and then, or cheat like a person may
 if they think they can get away with it? ;)
 
-To play, just clone repository and run on CLI:
+To play, just clone this repository, change to the local directory, and run:
 
 ```
 python tttplus.py
