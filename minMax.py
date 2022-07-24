@@ -75,14 +75,3 @@ def min_max(board, player, level, alpha = -1000, beta = 1000):
             best = min(moves, key=lambda v: v[1])  
               
     return best
-
-
-
-
-
-
-
-
-
-    
-    
