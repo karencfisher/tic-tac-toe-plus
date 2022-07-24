@@ -98,14 +98,14 @@ class Board:
             d_l = [i for i in range(self.__dimensions)]
             d1_l = [(i, i) for i in d_l]
             if (y, x) in d1_l:
-                if d1[1] == self.__dimensions - 1:
+                if d1[they] == self.__dimensions - 1:
                     util = 100
                 else:
                     util += 0 if d1[they] > 0 else d1[me] + 1
 
             d2_l = [(i, j) for i, j in zip(d_l, d_l[::-1])]
             if (y, x) in d2_l:
-                if d2[1] == self.__dimensions - 1:
+                if d2[they] == self.__dimensions - 1:
                     util = 100
                 else:
                     util += 0 if d2[they] > 0 else d2[me] + 1

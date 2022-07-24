@@ -42,7 +42,7 @@ class Game:
                 availMoves = self.board.get_avail_moves()
                 result = self.board.get_winner()
                 
-            minMax.count = 0
+            minMax.count = 1
             move = minMax.min_max(self.board, "X", 0)
             print("positions evaluated:", minMax.count)
             self.board.set_move(move[0], 'X')
